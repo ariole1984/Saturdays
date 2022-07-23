@@ -10,35 +10,23 @@
 // both functions above are the same just two different ways of writing it 
 
 // return it in an array 
-// function FizzBuzz(n) {
-//     let results = []
-//     for (let i=1; i<=n; i++) {
-//         if (i%3===0 && i%5===0){ 
-//             results.push("FizzBuzz")
-//         } else
-//         if (i%3===0){
-//             results.push("Fizz")
-//         } else 
-//         if (i%5===0){
-//             results.push("Buzz")
-//         }
-//         else
-//         results.push(i)
-//     }
-//     return results
-// }
-
-// let finalResult= FizzBuzz(15)
-// console.log (finalResult)
-
-
-
-
-
-
-
-let fizzResults = FizzBuzz(15);
-for(let i = 0; i < fizzResults.length; i++){
-    console.log(fizzResults[i])
+function FizzBuzz(n) {
+    let results = []
+    for (let i=1; i<=n; i++) {z
+        if (i%3===0 && i%5===0){ 
+            results.push("FizzBuzz")
+        } else
+        if (i%3===0){
+            results.push("Fizz")
+        } else 
+        if (i%5===0){
+            results.push("Buzz")
+        }
+        else
+        results.push(i)
+    }
+    return results
 }
-//let list = fizzResluts.join("\n" );
+
+let finalResult= FizzBuzz(15)
+console.log (finalResult)
