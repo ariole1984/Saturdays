@@ -1,0 +1,23 @@
+let students = [
+{
+    name: "maxxx",
+    here: true
+    
+},
+{
+    name: "pam",
+    here: true
+}
+
+function getStudentsName(studentsArray) {
+
+}
+
+]
+
+
+for (let i=0;i<10;i++){
+
+
+
+}

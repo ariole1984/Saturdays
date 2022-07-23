@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "firebase-admin": "^11.0.0"
+  },
+  "type": "module",
+  "name": "firebase",
+  "version": "1.0.0",
+  "main": "firebase.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariole1984/Saturdays.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariole1984/Saturdays/issues"
+  },
+  "homepage": "https://github.com/ariole1984/Saturdays#readme",
+  "description": ""
+}
